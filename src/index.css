@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Megrim');
+
+body {
+  margin: 0;
+  background-color: #DED6CA;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.heading-container {
+  background-color: transparent;
+  background-image: url("./assets/imgs/geo.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.name {
+  font-family: 'Megrim', cursive;
+  font-size: 2.5rem;
+  margin: 0;
+  padding-top: 1rem;
+}
+
+.heading-container h3 {
+  font-family: 'Megrim', cursive;
+  font-size: 1.5rem;
+  margin: 0;
+  padding-top: 70vh;
+  padding-bottom: 10vh;
+}
+
+.menu {
+  transform: rotate(90deg);
+  height: 30px
+}
+
+.s-nav {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+
+.s-option {
+  font-family: 'Megrim', cursive;
+  font-size: 1.3rem;
+  padding: 10px;
+  /* width: 10vw; */
+}
+
+.s-option:hover {
+  border-bottom: 1px grey solid;
+  border-top: 1px grey solid;
+}
+
+/* .dropdown-container {
+  width: 100vw;
+  height: 10%;
+  position: fixed;
+  background-color: #DED6CC;
+} */
+
+.name {
+  font-family: 'Megrim', cursive;
+  font-size: 2.5rem;
+  margin: 0;
+  padding-top: 1rem;
+  margin-right: 15px;
+}
+
+.option {
+  padding: 5px;
+  border-bottom: 1px grey solid;
+
+}
+
+@media (min-width: 944px) {
+  .nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+  }
+}
+
+/* Card and Project css  */
+.projects {
+  display: flex;
+  flex-flow: column wrap;
+  height: 100vh;
+}
+
+.card-container {
+  position: relative;
+  padding-bottom: 2%;
+}
+
+.card-image {
+  width: 30vw;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

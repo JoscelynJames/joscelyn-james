@@ -1,0 +1,30 @@
+import dog from './imgs/stock.jpg';
+var projects = [
+	{ id: 1, 
+		img: dog,
+		bio: 'ajdsklfj aad ag  kdjg iwajgkdfjhskf doeojg zmvcvkdjffeoa gggggg',
+		tech: 'asdf, efsd, agiowa, dfkw, fjda',
+	},
+	{ id: 2,
+		img: dog,
+		bio: 'dajf gjieg skdfjie gkdj gei dx jkdjgkdjfaw kjiow  kdj gwie kjgkldjgoiwe jf jfiehgs dddddd ',
+		tech: 'dajksf, ajdfk, adkf, dsjk',
+	},
+	{ id: 3,
+		img: dog,
+		bio: 'dajf gjieg skdf  kdj gwie kjgkldjgoiwe jf jfiehgs cccccc',
+		tech: 'dajksf, ajdfk, adkf, dsjk',
+	},
+	{ id: 4,
+		img: dog,
+		bio: 'dajf gjieg skdfjie gkdj gei dx jkdjgkdjfaw kjiow  kdj gwie kjgbbbbbbb ',
+		tech: 'dajksf, ajdfk, adkf, dsjk',
+	},
+	{ id: 5,
+		img: dog,
+		bio: 'dajfj gwie kjgkldjgoiwe jf jfiehgsaaaaa ',
+		tech: 'dajksf, ajdfk, adkf, dsjk',
+	},
+];
+
+export default projects;

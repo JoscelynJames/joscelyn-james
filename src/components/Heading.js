@@ -1,6 +1,5 @@
 import React from 'react';
-import Dropdown from './Dropdown'
-
+import Geo from './Geo';
 class Heading extends React.Component {
 	constructor(props) {
 		super(props);
@@ -31,10 +30,14 @@ class Heading extends React.Component {
 
 	render() {
 		return (
-			<div className="heading-container">
-				{this.state.scroll > 100 ? <Dropdown /> : <SplashNav />}
-				{/* <Dropdown /> */}
-				<h3>I'm a {this.state.adjective[this.state.currentIndex]}</h3>
+			<div>
+				<SplashNav />
+				<div>
+					<div className="heading-container">
+						<Geo />
+					</div>
+					<h3 className="heading">I'm a {this.state.adjective[this.state.currentIndex]}</h3>
+				</div>
 			</div>
 		)
 	}
